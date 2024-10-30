@@ -1,0 +1,18 @@
+{% load static %}
+<div class="container blog-content py-5">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="blog-img position-relative mb-5 mb-lg-0">
+        <img class="img-fluid w-100 rounded" src="{{ blog.image.url }}" alt="">
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="display-3 mb-4">{{ blog.title }}</h1>
+        <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> {{ blog.created_at }}</p>
+        <p class="mb-0">{{ blog.content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+

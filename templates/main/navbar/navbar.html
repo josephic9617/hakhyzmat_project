@@ -1,0 +1,80 @@
+<div class="container-fluid position-relative p-0">
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+  >
+    <a href="{% url 'home' %}" class="navbar-brand p-0">
+      <h1 class="text-primary m-0">
+        <i class="fas fa-star-of-life me-3"></i>Hakhyzmat
+      </h1>
+      <!-- <img src="img/logo.png" alt="Logo"> -->
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="fa fa-bars"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-0">
+        <a
+          href="{% url 'home' %}"
+          class="nav-item nav-link {% if request.path == '/' %}active{% endif %}"
+          >Home</a
+        >
+
+        <a
+          href="{% url 'about' %}"
+          class="nav-item nav-link {% if request.path == '/about/' %}active{% endif %}"
+          >About</a
+        >
+
+        <a
+          href="{% url 'service' %}"
+          class="nav-item nav-link {% if request.path == '/service/' %}active{% endif %}"
+          >Services</a
+        >
+
+        <div class="nav-item dropdown">
+          <a
+            href="#"
+            class="nav-link dropdown-toggle {% if request.path == '/appointment/' or request.path == '/feature/' or request.path == '/blog/' or request.path == '/team/' or request.path == '/testimonial/' %}active{% endif %}"
+            data-bs-toggle="dropdown"
+            >Pages</a
+          >
+
+          <div class="dropdown-menu m-0">
+            <a href="{% url 'appointment' %}" class="dropdown-item {% if request.path == '/appointment/' %}active{% endif %}"
+              >Appointment</a
+            >
+
+            <a href="{% url 'feature' %}" class="dropdown-item {% if request.path == '/feature/' %}active{% endif %}">Features</a>
+
+            <a href="{% url 'blog' %}" class="dropdown-item {% if request.path == '/blog/' %}active{% endif %}">Our Blog</a>
+
+            <a href="{% url 'team' %}" class="dropdown-item {% if request.path == '/team/' %}active{% endif %}">Our Team</a>
+
+            <a href="{% url 'testimonial' %}" class="dropdown-item {% if request.path == '/testimonial/' %}active{% endif %}"
+              >Testimonial</a
+            >
+          </div>
+        </div>
+
+        <a
+          href="{% url 'contactus' %}"
+          class="nav-item nav-link {% if request.path == '/contactus/' %}active{% endif %}"
+          >Contact Us</a
+        >
+      </div>
+
+      <a
+        href="{% url 'appointment' %}"
+        class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+        >Book Appointment</a
+      >
+    </div>
+  </nav>
+</div>

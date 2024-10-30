@@ -1,0 +1,24 @@
+{% load static %}
+<div class="header-carousel owl-carousel">
+  {% for banner in banners %}
+  <div class="header-carousel-item">
+    <img
+      src="{{ banner.image.url }}"
+      class="img-fluid w-100"
+      alt="Image"
+    />
+
+    <div class="carousel-caption">
+      <div class="carousel-caption-content p-3">
+        <h1 class="display-1 text-capitalize text-white mb-4">{{ banner.title }}</h1>
+
+        <p class="mb-5 fs-5">{{ banner.description }}</p>
+
+        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#"
+          >Book Appointment</a
+        >
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
