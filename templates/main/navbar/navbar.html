@@ -1,12 +1,14 @@
+{% load static %}
 <div class="container-fluid position-relative p-0">
   <nav
     class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
   >
     <a href="{% url 'home' %}" class="navbar-brand p-0">
-      <h1 class="text-primary m-0">
+      {% comment %} <h1 class="text-primary m-0">
         <i class="fas fa-star-of-life me-3"></i>Hakhyzmat
-      </h1>
-      <!-- <img src="img/logo.png" alt="Logo"> -->
+      </h1> {% endcomment %}
+
+      <img src="{% static 'main/img/logo_with_text.svg' %}" alt="Hakhyzmat" width="187" height="280" />
     </a>
 
     <button
@@ -69,12 +71,6 @@
           >Contact Us</a
         >
       </div>
-
-      <a
-        href="{% url 'appointment' %}"
-        class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
-        >Book Appointment</a
-      >
     </div>
   </nav>
 </div>
