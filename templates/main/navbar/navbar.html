@@ -43,16 +43,12 @@
         <div class="nav-item dropdown">
           <a
             href="#"
-            class="nav-link dropdown-toggle {% if request.path == '/appointment/' or request.path == '/feature/' or request.path == '/blog/' or request.path == '/team/' or request.path == '/testimonial/' %}active{% endif %}"
+            class="nav-link dropdown-toggle {% if request.path == '/feature/' or request.path == '/blog/' or request.path == '/team/' or request.path == '/testimonial/' %}active{% endif %}"
             data-bs-toggle="dropdown"
             >Pages</a
           >
 
           <div class="dropdown-menu m-0">
-            <a href="{% url 'appointment' %}" class="dropdown-item {% if request.path == '/appointment/' %}active{% endif %}"
-              >Appointment</a
-            >
-
             <a href="{% url 'feature' %}" class="dropdown-item {% if request.path == '/feature/' %}active{% endif %}">Features</a>
 
             <a href="{% url 'blog' %}" class="dropdown-item {% if request.path == '/blog/' %}active{% endif %}">Our Blog</a>
