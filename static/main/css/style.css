@@ -67,20 +67,20 @@
 }
 
 .btn.btn-primary {
-    box-shadow: inset 0 0 0 0 var(--bs-primary);
+    box-shadow: inset 0 0 0 0 #242358;
 }
 
 .btn.btn-primary:hover {
     box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    color: #242358 !important;
 }
 
 .btn.btn-light {
-    box-shadow: inset 0 0 0 0 var(--bs-primary);
+    box-shadow: inset 0 0 0 0 #242358;
 }
 
 .btn.btn-light:hover {
-    box-shadow: inset 300px 0 0 0 var(--bs-primary);
+    box-shadow: inset 300px 0 0 0 #242358;
     color: var(--bs-light) !important;
 }
 
@@ -103,7 +103,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .section-title .sub-style::before {
@@ -115,7 +115,7 @@
     transform: translateY(-50%);
     margin-top: 8px;
     margin-left: -100px;
-    border: 1px solid var(--bs-primary) !important;
+    border: 1px solid #242358 !important;
 }
 
 .section-title .sub-style::after {
@@ -127,14 +127,14 @@
     transform: translateY(-50%);
     margin-bottom: 5px;
     margin-left: -50px;
-    border: 1px solid var(--bs-primary) !important;
+    border: 1px solid #242358 !important;
 }
 
 .sub-title {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .sub-title::before {
@@ -146,7 +146,7 @@
     transform: translateY(-50%);
     margin-top: 8px;
     margin-right: -100px;
-    border: 1px solid var(--bs-primary) !important;
+    border: 1px solid #242358 !important;
 }
 
 .sub-title::after {
@@ -158,7 +158,7 @@
     transform: translateY(-50%);
     margin-bottom: 8px;
     margin-right: -50px;
-    border: 1px solid var(--bs-primary) !important;
+    border: 1px solid #242358 !important;
 }
 
 
@@ -169,7 +169,7 @@
 
 .topbar {
     padding: 2px 10px 2px 20px;
-    background: var(--bs-primary) !important;
+    background: #242358 !important;
 }
 
 .topbar a,
@@ -211,7 +211,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-primary) !important;
+    color: #242358 !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -247,7 +247,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: #242358;
     color: var(--bs-white);
 }
 
@@ -267,8 +267,8 @@
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        border: 1px solid #242358;
+        color: #242358;
     }
 
     .navbar-light .navbar-collapse {
@@ -310,7 +310,7 @@
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--bs-primary);
+        background: #242358;
         transition: .5s;
     }
 
@@ -337,7 +337,7 @@
     left: 20px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: var(--bs-primary);
+    background: #242358;
     color: var(--bs-white);
     font-size: 30px;
     display: flex;
@@ -354,7 +354,7 @@
     right: 20px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: var(--bs-primary);
+    background: #242358;
     color: var(--bs-white);
     font-size: 30px;
     display: flex;
@@ -371,7 +371,7 @@
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     box-shadow: inset 150px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    color: #242358 !important;
 }
 
 @media (max-width: 576px) {
@@ -482,7 +482,7 @@
 
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: rgba(21, 185, 217, .3);
+    background: #242358;
 }
 
 .service .service-item .service-img:hover img {
@@ -504,13 +504,13 @@
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: rgba(21, 185, 217, .5);
+    background: #242358;
     transition: 0.5s;
     z-index: 3;
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(21, 185, 217, .5);
+    background: #242358;
     height: 100%;
 }
 
@@ -554,7 +554,7 @@
     left: -125px; 
     transform: rotate(-90deg);
     background: transparent;
-    color: var(--bs-primary);
+    color: #242358;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -566,7 +566,7 @@
 .feature .feature-item {
     position: relative;
     display: flex;
-    border: 1px solid var(--bs-primary);
+    border: 1px solid #242358;
     border-radius: 10px;
     background: var(--bs-light);
     transition: 0.5s;
@@ -586,7 +586,7 @@
 
 .feature .feature-item:hover::before {
     width: 100%;
-    background: var(--bs-primary);
+    background: #242358;
 }
 
 .feature .feature-item .feature-icon {
@@ -626,12 +626,12 @@
 }
 
 .appointment .appointment-form .btn.btn-primary {
-    box-shadow: inset 0 0 0 0 var(--bs-primary);
+    box-shadow: inset 0 0 0 0 #242358;
 }
 
 .appointment .appointment-form .btn.btn-primary:hover {
     box-shadow: inset 600px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    color: #242358 !important;
 }
 /*** Youtube Video start ***/
 .video {
@@ -664,7 +664,7 @@
     display: block;
     width: 115px;
     height: 115px;
-    background: var(--bs-primary);
+    background: #242358;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
     transition: 0.5s;
@@ -772,11 +772,11 @@
 }
 
 .team .team-item:hover .team-img::before {
-    background: rgba(21, 185, 217, .3);
+    background: #242358;
 }
 
 .team .team-item .team-content {
-    color: var(--bs-primary);
+    color: #242358;
     transition: 0.5s;
 }
 
@@ -790,7 +790,7 @@
 }
 
 .team .team-item:hover .team-content {
-    background: var(--bs-primary);
+    background: #242358;
     color: var(--bs-white);
 }
 /*** Team End ***/
@@ -798,7 +798,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(#242358, #242358), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -838,7 +838,7 @@
     justify-content: center;
     font-size: 20px;
     background: var(--bs-light);
-    color: var(--bs-primary);
+    color: #242358;
     transition: 0.5s;
 }
 
@@ -855,14 +855,14 @@
     justify-content: center;
     font-size: 20px;
     background: var(--bs-light);
-    color: var(--bs-primary);
+    color: #242358;
     transition: 0.5s;
 }
 
 
 .testimonial .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial .testimonial-carousel .owl-nav .owl-next:hover {
-    box-shadow: inset 100px 0 0 0 var(--bs-primary) !important;
+    box-shadow: inset 100px 0 0 0 #242358 !important;
     color: var(--bs-white) !important;
 }
 
@@ -950,7 +950,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .testimonial .section-title .sub-style::before {
@@ -981,7 +981,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .testimonial .section-title .sub-title::before {
@@ -1039,12 +1039,12 @@
 }
 
 .blog .blog-item:hover .blog-img::after {
-    background: rgba(21, 185, 217, .5);
+    background: #242358;
 }
 
 .blog .blog-item .blog-centent {
     background: var(--bs-light);
-    border: 1px solid var(--bs-primary);
+    border: 1px solid #242358;
     border-top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -1054,7 +1054,7 @@
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(#242358, #242358), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1063,11 +1063,11 @@
 
 
 .contact .contact-form .btn.btn-light {
-    box-shadow: inset 0 0 0 0 var(--bs-primary);
+    box-shadow: inset 0 0 0 0 #242358;
 }
 
 .contact .contact-form .btn.btn-light:hover {
-    box-shadow: inset 600px 0 0 0 var(--bs-primary) !important;
+    box-shadow: inset 600px 0 0 0 #242358 !important;
     color: var(--bs-white) !important;
 }
 
@@ -1090,7 +1090,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .contact .section-title .sub-style::before {
@@ -1121,7 +1121,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 .contact .section-title .sub-title::before {
@@ -1169,7 +1169,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary);
+    color: #242358;
 }
 
 /*** Footer End ***/
