@@ -12,7 +12,7 @@ from main.views.testimonial import testimonial
 
 urlpatterns = [
     path('', home, name='home'),
-    path('about/', about, name='about'),
+    # path('about/', about, name='about'),
     path('service/', service, name='service'),
     path('feature/', feature, name='feature'),
     path('contactus/', contactus, name='contactus'),
@@ -22,5 +22,5 @@ urlpatterns = [
     path('blog/', blog, name='blog'),
     path('blog-details/<int:pk>/', blog_details, name='blog-details'),
     path('team/', team, name='team'),
-    path('testimonial/', testimonial, name='testimonial'),
+    # path('testimonial/', testimonial, name='testimonial'),
 ]

@@ -24,7 +24,7 @@
       <div class="navbar-nav ms-auto py-0">
         <a href="{% url 'home' %}" class="nav-item nav-link active">Home</a>
 
-        <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
+        {% comment %} <a href="{% url 'about' %}" class="nav-item nav-link">About</a> {% endcomment %}
 
         <a href="{% url 'service' %}" class="nav-item nav-link">Services</a>
 
@@ -41,9 +41,9 @@
 
             <a href="{% url 'team' %}" class="dropdown-item">Our Team</a>
 
-            <a href="{% url 'testimonial' %}" class="dropdown-item"
+            {% comment %} <a href="{% url 'testimonial' %}" class="dropdown-item"
               >Testimonial</a
-            >
+            > {% endcomment %}
           </div>
         </div>
 

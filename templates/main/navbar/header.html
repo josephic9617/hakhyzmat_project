@@ -6,7 +6,7 @@
         {% if request.path == '/contactus/' %}Contact Us{% endif %}
         {% if request.path == '/appointment/' %}Book Appointment{% endif %}
         {% if request.path == '/feature/' %}Our Features{% endif %}
-        {% if request.path == '/blog/' %}Physiotherapy Blog{% endif %}
+        {% if request.path == '/blog/' %}Blog{% endif %}
         {% if request.path == '/team/' %}Our Team{% endif %}
         {% if request.path == '/testimonial/' %}Testimonial{% endif %}
         {% if '/blog-details/' in request.path %}Blog Details{% endif %}
@@ -17,7 +17,7 @@
 
             <li class="breadcrumb-item"><a href="#">Pages</a></li>
             
-            <li class="breadcrumb-item active text-primary">
+            <li class="breadcrumb-item"><a href="#">
             {% if request.path == '/about/' %}About{% endif %}
             {% if request.path == '/service/' %}Services{% endif %}
             {% if request.path == '/contactus/' %}Contact{% endif %}
@@ -26,7 +26,7 @@
             {% if request.path == '/blog/' %}Blog{% endif %}
             {% if request.path == '/team/' %}Team{% endif %}
             {% if request.path == '/testimonial/' %}Testimonial{% endif %}
-            {% if '/blog-details/' in request.path %}Blog-Details{% endif %}
+            {% if '/blog-details/' in request.path %}Blog-Details{% endif %}</a>
             </li>
         </ol>    
     </div>
