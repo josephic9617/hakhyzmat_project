@@ -11,14 +11,6 @@
         class="col-lg-5 col-xl-5 contact-form wow fadeInLeft"
         data-wow-delay="0.1s"
       >
-        <h2 class="display-5 text-white mb-2">Get in Touch</h2>
-
-        <p class="mb-4 text-white">
-          The contact form is currently inactive. Get a functional and working
-          contact form with Ajax & PHP in a few minutes. Just copy and paste the
-          files, add a little code and you're done.
-        </p>
-
         <form action="{% url 'sendmessage' %}" method="POST">
           {% csrf_token %}
           <div class="row g-3">
@@ -162,24 +154,6 @@
       </div>
 
       <div class="col-lg-5 col-xl-5 wow fadeInRight" data-wow-delay="0.3s">
-        <div class="d-flex justify-content-center mb-4">
-          <a class="btn btn-lg-square btn-light rounded-circle mx-2" href=""
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-
-          <a class="btn btn-lg-square btn-light rounded-circle mx-2" href=""
-            ><i class="fab fa-twitter"></i
-          ></a>
-
-          <a class="btn btn-lg-square btn-light rounded-circle mx-2" href=""
-            ><i class="fab fa-instagram"></i
-          ></a>
-
-          <a class="btn btn-lg-square btn-light rounded-circle mx-2" href=""
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
-
         <div class="rounded h-100">
           <iframe
             class="rounded w-100"
