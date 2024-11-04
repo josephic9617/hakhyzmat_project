@@ -23,7 +23,13 @@
             <div class="feature-content d-flex flex-column">
               <h5 class="mb-4">{{ feature.name }}</h5>
 
-              <p class="mb-0">{{ feature.description }}</p>
+              <p class="mb-4">
+                {% if feature.description|length > 77 %}
+                    {{ feature.description|slice:":77" }}...
+                {% else %}
+                    {{ feature.description }}
+                {% endif %}
+              </p>
             </div>
           </div>
         </div>

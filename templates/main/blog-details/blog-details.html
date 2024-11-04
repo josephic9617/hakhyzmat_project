@@ -9,7 +9,8 @@
     <div class="col-lg-8">
       <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
         <h1 class="display-3 mb-4">{{ blog.title }}</h1>
-        <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> {{ blog.created_at }}</p>
+        <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> {{ blog.created_at|date:"j F Y" }}</p>
+        <br>
         <p class="mb-0">{{ blog.content }}</p>
       </div>
     </div>

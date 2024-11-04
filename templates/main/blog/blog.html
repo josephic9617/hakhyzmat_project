@@ -21,7 +21,7 @@
           <div class="blog-centent p-4">
             <div class="d-flex justify-content-between mb-4">
               <p class="mb-0 text-muted">
-                <i class="fa fa-calendar-alt text-primary"></i> {{ blog.created_at }}
+                <i class="fa fa-calendar-alt text-primary"></i> {{ blog.created_at|date:"j F Y" }}
               </p>
 
               {% comment %} <a href="#" class="text-muted"
@@ -31,7 +31,13 @@
 
             <a href="#" class="h4">{{ blog.title }}</a>
 
-            <p class="my-4">{{ blog.content }}</p>
+            <p class="my-4">
+            {% if blog.content|length > 102 %}
+                {{ blog.content|slice:":102" }}...
+            {% else %}
+                {{ blog.content }}
+            {% endif %}
+            </p>
 
             <a
               href="{% url 'blog-details' blog.pk %}"

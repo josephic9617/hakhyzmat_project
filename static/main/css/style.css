@@ -68,6 +68,7 @@
 
 .btn.btn-primary {
     box-shadow: inset 0 0 0 0 #242358;
+    border: 1px solid #DDDDDD;
 }
 
 .btn.btn-primary:hover {
@@ -482,7 +483,7 @@
 
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: #242358;
+    background: rgba(0, 0, 0, .2);
 }
 
 .service .service-item .service-img:hover img {
@@ -607,7 +608,7 @@
 }
 
 .feature .feature-item:hover .feature-content h5 {
-    color: var(--bs-dark);
+    color: var(--bs-white);
 }
 /*** Feature End ***/
 
@@ -772,7 +773,7 @@
 }
 
 .team .team-item:hover .team-img::before {
-    background: #242358;
+    background: rgba(0, 0, 0, .2);
 }
 
 .team .team-item .team-content {
@@ -786,7 +787,7 @@
 }
 
 .team .team-item:hover .team-content h5 {
-    color: var(--bs-dark);
+    color: var(--bs-white);
 }
 
 .team .team-item:hover .team-content {
@@ -1039,7 +1040,7 @@
 }
 
 .blog .blog-item:hover .blog-img::after {
-    background: #242358;
+    background: rgba(0, 0, 0, .2);
 }
 
 .blog .blog-item .blog-centent {
